@@ -1,0 +1,104 @@
+{
+  "emociones": [
+    {
+      "id": "insegura",
+      "nombre": "Me siento insegura / Tengo dudas",
+      "cartas": [
+        {
+          "id": "insegura_01",
+          "titulo": "Nunca dudes de lo que siento",
+          "texto": "Mi amor, si alguna vez las dudas tocan tu puerta, recuerda que mi corazón eligió el tuyo sin condiciones. No hay un universo donde yo no te elija. Cada mañana despierto agradecido de que seas tú quien camina a mi lado. No necesito pensarlo dos veces: eres mi certeza favorita en un mundo lleno de incertidumbre.",
+          "audio_file": "insegura_01.mp3"
+        }
+      ]
+    },
+    {
+      "id": "extrano",
+      "nombre": "Te extraño mucho",
+      "cartas": [
+        {
+          "id": "extrano_01",
+          "titulo": "La distancia no puede con nosotros",
+          "texto": "Te extraño con cada latido que da mi corazón. Hay rincones del día donde tu ausencia pesa más que nunca: cuando veo algo gracioso y quiero contártelo, cuando el café huele como esas mañanas juntos, cuando la almohada todavía guarda un poco de tu perfume. Pero cada segundo que pasa es un segundo menos para volver a abrazarte.",
+          "audio_file": "extrano_01.mp3"
+        }
+      ]
+    },
+    {
+      "id": "insomnio",
+      "nombre": "No puedo dormir",
+      "cartas": [
+        {
+          "id": "insomnio_01",
+          "titulo": "Déjame ser tu canción de cuna",
+          "texto": "Cierra los ojos, mi vida. Imagina que estoy ahí, acariciando tu cabello mientras te cuento lo mucho que te quiero. No tienes que preocuparte por nada esta noche: el mundo puede esperar, pero tu descanso no. Respira profundo y siente que mis brazos te rodean aunque la distancia diga lo contrario. Duerme tranquila, que yo cuido tus sueños.",
+          "audio_file": "insomnio_01.mp3"
+        }
+      ]
+    },
+    {
+      "id": "elegiste",
+      "nombre": "Recuérdame por qué me elegiste",
+      "cartas": [
+        {
+          "id": "elegiste_01",
+          "titulo": "Te elegí y te volvería a elegir",
+          "texto": "Te elegí porque tu risa ilumina los días más grises. Te elegí porque cuando hablas de lo que amas, tus ojos brillan de una forma que me deja sin aliento. Te elegí porque me haces querer ser mejor persona cada día. Y si el tiempo volviera atrás y me pusieran frente a mil caminos, en todos caminaría hacia ti.",
+          "audio_file": "elegiste_01.mp3"
+        }
+      ]
+    },
+    {
+      "id": "triste",
+      "nombre": "Me siento triste",
+      "cartas": [
+        {
+          "id": "triste_01",
+          "titulo": "Tu tristeza también es mía",
+          "texto": "No tienes que ser fuerte todo el tiempo, mi amor. Si hoy el mundo pesa demasiado, déjame cargar un poco contigo. No voy a intentar arreglarlo todo con palabras bonitas; solo quiero que sepas que estoy aquí, firme, esperándote con los brazos abiertos. Llorar no te hace débil, te hace humana. Y yo te amo en cada una de tus versiones.",
+          "audio_file": "triste_01.mp3"
+        }
+      ]
+    },
+    {
+      "id": "enojada",
+      "nombre": "Estoy enojada",
+      "cartas": [
+        {
+          "id": "enojada_01",
+          "titulo": "Incluso enojada, eres mi persona favorita",
+          "texto": "Sé que ahora mismo quisieras lanzarme una almohada (o algo más pesado), y probablemente me lo merezco. Pero quiero que sepas que incluso en medio de la tormenta, no hay otro lugar donde prefiera estar que a tu lado. Tus enojos me importan porque tú me importas. Hablemos, gritemos, lloremos si hace falta, pero no nos soltemos. Nunca.",
+          "audio_file": "enojada_01.mp3"
+        }
+      ]
+    },
+    {
+      "id": "cansada",
+      "nombre": "Estoy cansada",
+      "cartas": [
+        {
+          "id": "cansada_01",
+          "titulo": "Hoy descansa, yo me encargo",
+          "texto": "Has dado tanto de ti que mereces un respiro, mi vida. Hoy no tienes que resolver nada, ni sonreír si no quieres, ni fingir que todo está bien. Solo recuéstate, respira y déjame ser tu refugio. Mañana el mundo seguirá ahí, pero esta noche es tuya. Te preparo un té imaginario, te arropo con mis palabras y te prometo que todo va a estar bien.",
+          "audio_file": "cansada_01.mp3"
+        }
+      ]
+    },
+    {
+      "id": "feliz",
+      "nombre": "Me siento feliz",
+      "cartas": [
+        {
+          "id": "feliz_01",
+          "titulo": "Tu felicidad es mi lugar favorito",
+          "texto": "Verte feliz es como ver un amanecer después de mil noches oscuras. Tu sonrisa tiene el poder de convertir cualquier día ordinario en extraordinario. Quiero que sepas que tu alegría me contagia, que cuando ríes el mundo se detiene un instante y todo cobra sentido. Nunca dejes de brillar así, porque esa luz tuya me guía a casa.",
+          "audio_file": "feliz_01.mp3"
+        }
+      ]
+    }
+  ],
+  "extras": {
+    "audio_amor": "amor.mp3",
+    "link_broma_final": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+  }
+}
