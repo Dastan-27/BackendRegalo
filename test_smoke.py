@@ -44,7 +44,7 @@ print(f"✅ /api/cartas/aleatoria?emocion_id=extrano → {al2['id']}")
 # 6. Por ID
 c = obtener_carta_por_id("feliz_01")
 assert c["id"] == "feliz_01"
-assert c["audio_url"] == "/static/audios/feliz_01.mp3"
+assert c["audio_url"] == "/static/audios/feliz_01.m4a"
 print(f"✅ /api/cartas/feliz_01 → OK")
 
 # 7. 404
@@ -57,7 +57,7 @@ except Exception as e:
 
 # 8. Extras
 extras = obtener_extras()
-assert extras["audio_amor_url"] == "/static/audios/amor.mp3"
+assert extras["audio_amor_url"] == "/static/audios/amor.m4a"
 assert "link_broma_final" in extras
 print(f"✅ /api/extras → audio_amor_url={extras['audio_amor_url']}")
 
