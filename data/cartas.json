@@ -47,12 +47,6 @@
       "nombre": "Te extraño mucho",
       "cartas": [
         {
-          "id": "extrano_01",
-          "titulo": "La distancia no puede con nosotros",
-          "texto": "Te extraño con cada latido que da mi corazón. Hay rincones del día donde tu ausencia pesa más que nunca: cuando veo algo gracioso y quiero contártelo, cuando el café huele como esas mañanas juntos, cuando la almohada todavía guarda un poco de tu perfume. Pero cada segundo que pasa es un segundo menos para volver a abrazarte.",
-          "audio_file": "extrano_01.m4a"
-        },
-        {
           "id": "extrano_02",
           "titulo": "Vínculo perpetuo",
           "texto": "Eres mía.\nPorque ni tan tuya has sido,\ncomo ya has sido mía.\nY no eres mía como pertenencia ni como un objeto;\neres mía como vínculo perpetuo.\n\nNo importa cuántos kilómetros nos separen hoy ni cuánto tiempo pase entre abrazo y abrazo: nuestras almas firmaron un pacto que la geografía jamás podrá borrar.",
@@ -79,7 +73,7 @@
         {
           "id": "extrano_06",
           "titulo": "Versos contra los kilómetros",
-          "texto": "No hay mapa que mida cuánto te anhelo,\nni reloj que entienda mi dulce tormento;\nsi cuatro años lejos no apagan este fuego,\nes porque tu nombre respira en mi aliento.\n\nExtraño tu voz, tu cuerpo tibio, tu risa traviesa y hasta tus gestos serios. Cada noche que pasa sin ti es un poema incompleto que solo termina cuando por fin te tengo de frente.",
+          "texto": "No hay mapa que mida cuánto te anhelo,\nni reloj que entienda mi dulce tormento;\nsi cuatro años lejos no apagan este fuego,\nes porque tu nombre respira en mi aliento.\n\nExtraño tu voz, tu risa traviesa y hasta tus gestos serios. Cada noche que pasa sin ti es un poema incompleto que solo termina cuando por fin te tengo de frente.",
           "audio_file": "extrano_06.m4a"
         }
       ]
@@ -263,12 +257,6 @@
           "audio_file": "cansada_01.m4a"
         },
         {
-          "id": "cansada_02",
-          "titulo": "Orgulloso de mi futura biotecnóloga",
-          "texto": "Sé lo pesada que es tu carrera y cómo la universidad te exprime cada hora libre que tienes. A veces quisiera secuestrarte de los libros y los laboratorios solo para que pudieras dormir doce horas seguidas.\n\nPero quiero que sepas algo: te admiro con toda el alma. Ver el esfuerzo brutal que le pones a Biotecnología me llena de orgullo. Hoy ya hiciste más que suficiente, brillante mujer; suelta los apuntes y descansa.",
-          "audio_file": "cansada_02.m4a"
-        },
-        {
           "id": "cansada_03",
           "titulo": "Un masaje pendiente",
           "texto": "Si estuviera ahí contigo ahora mismo, no te dejaría mover ni un dedo. Te quitaría los zapatos, te recostaría boca abajo y recorrería lentamente tu espalda y tus hombros con mis manos hasta borrar el último nudo de estrés.\n\nAcariciaría tu cabello largo y ondulado, besaría tu piel morena con suavidad y te abrazaría fuerte hasta que tu cuerpo se rindiera al descanso. Te lo dejo anotado con intereses para cuando nos veamos.",
@@ -283,7 +271,7 @@
         {
           "id": "cansada_05",
           "titulo": "Escapémonos un rato",
-          "texto": "Hoy declara huelga contra las obligaciones, mi amor. Regálate media hora para leer unas páginas de tu libro de amor adolescente favorito, o imagina que estamos tirados sin hacer nada maratoneando otro drama coreano tan bueno como Ojos de Ángel.\n\nNo tienes que ser productiva cada minuto de tu vida para merecer amor. Te amo exactamente igual cuando conquistas la universidad que cuando solo quieres tirarte en la cama a existir.",
+          "texto": "Hoy declara huelga contra las obligaciones, mi amor. Regálate media hora para leer unas páginas de algún libro, o imagina que estamos tirados sin hacer nada maratoneando otro drama coreano.\n\nNo tienes que ser productiva cada minuto de tu vida para merecer amor. Te amo exactamente igual cuando conquistas la universidad que cuando solo quieres tirarte en la cama a existir.",
           "audio_file": "cansada_05.m4a"
         },
         {
@@ -325,7 +313,7 @@
         {
           "id": "feliz_05",
           "titulo": "Nuestra propia historia de amor",
-          "texto": "Sé que te encantan los libros de amor adolescente donde todo se siente intenso, mágico e inolvidable. Pues cuando te veo feliz hoy, siento que nuestra historia de cuatro años no tiene nada que envidiarle a ningún bestseller.\n\nLo nuestro tiene drama, distancia, pasión, risas y un amor que sobrevive a todo. Y lo mejor de nuestra novela es que todavía nos quedan los mejores capítulos por vivir, ya sin kilómetros de por medio.",
+          "texto": "Sé que te encantan los libros de amor donde todo se siente intenso, mágico e inolvidable. Pues cuando te veo feliz hoy, siento que nuestra historia de cuatro años no tiene nada que envidiarle a ningún bestseller.\n\nLo nuestro tiene drama, distancia, pasión, risas y un amor que sobrevive a todo. Y lo mejor de nuestra novela es que todavía nos quedan los mejores capítulos por vivir, ya sin kilómetros de por medio.",
           "audio_file": "feliz_05.m4a"
         },
         {
@@ -338,7 +326,14 @@
     }
   ],
   "extras": {
-    "audio_amor": "amor.m4a",
+    "audio_amor": "amor_01.m4a",
+    "audios_amor": [
+      "amor_01.m4a",
+      "amor_02.m4a",
+      "amor_03.m4a",
+      "amor_04.m4a",
+      "amor_05.m4a"
+    ],
     "link_broma_final": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
   }
 }

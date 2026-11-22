@@ -20,14 +20,14 @@ print(f"✅ /api/emociones → {len(emociones)} categorías")
 
 # 2. Todas las cartas
 cartas = listar_cartas()
-assert len(cartas) == 8, f"Expected 8 cartas, got {len(cartas)}"
+assert len(cartas) == 48, f"Expected 48 cartas, got {len(cartas)}"
 for c in cartas:
     assert "audio_url" in c and c["audio_url"].startswith("/static/audios/")
 print(f"✅ /api/cartas → {len(cartas)} cartas, audio_url presente en todas")
 
 # 3. Filtrar por emoción
 filtradas = listar_cartas("insegura")
-assert len(filtradas) == 1
+assert len(filtradas) == 6
 assert filtradas[0]["emocion_id"] == "insegura"
 print("✅ /api/cartas?emocion_id=insegura → 1 carta correcta")
 
@@ -57,9 +57,10 @@ except Exception as e:
 
 # 8. Extras
 extras = obtener_extras()
-assert extras["audio_amor_url"] == "/static/audios/amor.m4a"
+assert extras["audio_amor_url"] == "/static/audios/amor_01.m4a"
+assert len(extras["audios_amor_urls"]) >= 1
 assert "link_broma_final" in extras
-print(f"✅ /api/extras → audio_amor_url={extras['audio_amor_url']}")
+print(f"✅ /api/extras → audio_amor_url={extras['audio_amor_url']}, audios={len(extras['audios_amor_urls'])}")
 
 print("\n🎉 Todos los tests pasaron correctamente!")
 

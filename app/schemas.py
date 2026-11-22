@@ -45,8 +45,18 @@ class CartasResponse(BaseModel):
 class ExtrasResponse(BaseModel):
     """Configuración extra: audio del botón AMOR!!! y link de broma."""
 
-    audio_amor: str = Field(..., examples=["amor.mp3"])
-    audio_amor_url: str = Field(..., examples=["/static/audios/amor.mp3"])
+    audio_amor: str = Field(default="amor_01.m4a", examples=["amor_01.m4a"])
+    audio_amor_url: str = Field(
+        default="/static/audios/amor_01.m4a", examples=["/static/audios/amor_01.m4a"]
+    )
+    audios_amor: list[str] = Field(
+        default_factory=list,
+        examples=[["amor_01.m4a", "amor_02.m4a", "amor_03.m4a", "amor_04.m4a", "amor_05.m4a"]],
+    )
+    audios_amor_urls: list[str] = Field(
+        default_factory=list,
+        examples=[["/static/audios/amor_01.m4a", "/static/audios/amor_02.m4a"]],
+    )
     link_broma_final: str = Field(
         ..., examples=["https://www.youtube.com/watch?v=dQw4w9WgXcQ"]
     )

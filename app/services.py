@@ -105,9 +105,19 @@ def obtener_extras() -> dict[str, Any]:
     """Devuelve la config extra: audio del botón AMOR!!! y link de broma."""
     data = _load_data()
     extras = data["extras"]
+    audios_amor = extras.get("audios_amor") or (
+        [extras["audio_amor"]] if "audio_amor" in extras else []
+    )
+    audios_amor_urls = [_build_audio_url(archivo) for archivo in audios_amor]
+    single_audio = extras.get("audio_amor") or (
+        audios_amor[0] if audios_amor else "amor_01.m4a"
+    )
+
     return {
-        "audio_amor": extras["audio_amor"],
-        "audio_amor_url": _build_audio_url(extras["audio_amor"]),
-        "link_broma_final": extras["link_broma_final"],
+        "audio_amor": single_audio,
+        "audio_amor_url": _build_audio_url(single_audio),
+        "audios_amor": audios_amor,
+        "audios_amor_urls": audios_amor_urls,
+        "link_broma_final": extras.get("link_broma_final", ""),
     }
 
